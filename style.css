@@ -113,12 +113,12 @@ hr {
         max-width: 1100px;
     }
 }
-@media(min-width:1020px) {
+@media(min-width:1240px) {
     .feature-image-960 {
         max-width: 1100px;
     }
 }
-@media(max-width:1019px) {
+@media(max-width:1024px) {
     .feature-image-960 {
         max-width: 100%;
     }
@@ -538,7 +538,7 @@ header {
     padding-top: 15px;
 }
 .padding-top-25 {
-    padding-top: 25px;
+    padding-top: 25px !important;
 }
 .padding-top-reduced {
     padding-top: 20px;
@@ -1538,7 +1538,7 @@ h2 .main-title {
 body:after{
     position: absolute; overflow: hidden; left: -50000px; content: 
     url("images/read-more-arrow-light-h.svg" ) url("images/read-more-arrow-light-left-h.svg" ) url("images/read-more-arrow-light-left-h.svg" ) url("images/read-more-arrow-light-p.svg" )
-    url("images/menu-icon.svg" ) url("images/menu-icon_l.svg" );
+    url("images/menu-icon.svg" ) url("images/menu-icon_l.svg" ) url("images/menu-icon-h.svg" );
 }
 
 .slick-slide:focus {outline:none;}
@@ -1798,4 +1798,10 @@ p {
 }
 .indent-block {
     margin-left: 40px;
+}
+.subtitle {
+    padding-bottom: 25px;
+}
+h3 {
+    margin-top: 0px !important;
 }
