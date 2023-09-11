@@ -66,12 +66,19 @@ body {
 
     }
     .main-title {
-        font-size: 160% !important;
+        font-size: 140% !important;
         padding-top: 20px !important;
         padding-bottom: 25px !important;
-        
     }
-}
+    .dev-title {
+        font-size: 180% !important;
+        line-height: 2rem;
+    }
+    .newsletter-title-pd {
+        font-size: 180% !important;
+
+    }
+ }
 .feature-logo {
     padding-top: 50px;
     max-width: 550px;
@@ -115,7 +122,10 @@ body {
     line-height: 1.75rem;
 }
 .intro-bubble {
-    max-width: 450px;
+    max-width: 400px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
 }
 .intro-bubble-w {
     max-width: 480px;
