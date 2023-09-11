@@ -9,34 +9,19 @@
 <link rel="stylesheet" type= "text/css" href= "style.css" />
 <link rel="stylesheet" type= "text/css" href= "fonts.css" />
 <link rel="stylesheet" type= "text/css" href= "nav.css" />
+<link rel="stylesheet" type= "text/css" href= "PD.css" />
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script> 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css?family=Lusitana&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Oswald:wght@700&display=swap" rel="stylesheet">
 
 </head>
 
-<style>
-
-.infinity-container {
-    background: #231F20;
-    min-height: 920px;
-}
-.feature-logo {
-    padding-top: 130px;
-    max-width: 550px;
-}
-@media(max-width:767px) {
-    .feature-logo {
-    padding-top: 80px;
-    max-width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-
-}
-}
-</style>
 <body>
 <!--#endregion-->
 
@@ -45,9 +30,10 @@
 <div id="sidebar-wrapper">
 <ul class="sidebar-nav">
 <div class="nav-icon-alt header-nav-icon_c" id="menu-toggle_c"></div>
-<li> <a href="index.html">Home</a>
-</li>
-<li><a href="contact.html">Contact</a>
+<li> <a href="index.html">Home</a></li>
+<li><a href="about-us.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+
 </ul>
 </div>
 </div>
@@ -59,14 +45,108 @@
 <div class="infinity-container">
 
 
-<div class="">
-    <img class="center-image feature-logo logo-padding-r" src="images/logo.png" alt="Two Headed Aline logo" />
+<div class="align-center article-title">
+    <h2><span class="main-title">TWO HEADED ALIEN</span><br></h2>
 </div>
+
+
+<!-- #region text block -->
+<div class="text-block padding-bottom align-center intro-bubble">
+    <!--&-->
+    An indie game studio making <span class="col-red">weird and eerie</span> games with a <span class="col-blue">narrative focus</span>
+    <!--&-->
+</div>
+<!-- #endregion text block -->
+
+<div class="padded-container">
+    <img id="modalImage"onclick="openModal(this)" class="center-image feature-image-1400 drop-shadow" src="images/Project-Diagnosis-web-title.jpg" alt="Project Diagnosis Web Title" />
+</div>
+
+<div class="align-center">
+    <div class="sub-title">Currently developing:</div><br>
+
+    <div class="dev-title">PROJECT DIAGNOSIS</div><br>
+</div>
+
+<!-- #region text block -->
+<div class="text-block align-center intro-bubble-w">
+    <!--&-->
+    A sci-fi investigation game about 
+    caring for victims of alien abduction
+        <!--&-->
+</div>
+<!-- #endregion text block -->
+
+<div class="padding-top"></div>
+
+
+
+<div class="padded-container display-reduced">
+    <div class='slider-container padding-top-reduced'>
+        <div class='slick-slider drop-shadow'>
+            <div>
+                <img class="feature-image-960 image-outline" src="images/PD-sc-01.png" alt="" />
+            </div>
+            <div>
+                <img class="feature-image-960 image-outline" src="images/PD-sc-02.png" alt="" />
+
+            </div>
+            <div>
+                <img class="feature-image-960 image-outline" src="images/PD-sc-03.png" alt="" />
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="hide-reduced">
+    <div class="row">
+
+        <div class="column-3-reduced-padding">
+            <img class="drop-shadow-light image-outline" src="images/PD-sc-01.png" alt="" />
+        </div>
+
+        <div class="column-3-reduced-padding">
+            <img class="drop-shadow-light image-outline" src="images/PD-sc-02.png" alt="" />
+        </div>
+
+        <div class="column-3-reduced-padding">
+            <img class="drop-shadow-light image-outline" src="images/PD-sc-03.png" alt="" />
+        </div>
+
+    </div>
+
+</div>
+
 
 <!--*F-->
 <!--#endregion-->
 
 <!--#region footer-->
+</div>
+
+<div class="align-center-d text-block padding-top padding-bottom">
+    <!--Signup Form-->
+    <div id="mc_embed_signup">
+        <form action="https://twoheadedalien.us21.list-manage.com/subscribe/post?u=d757ed6a7de1144f720d19402&amp;id=c7236ccafa&amp;f_id=00a6e3e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+            <div id="mc_embed_signup_scroll">
+            <div class="newsletter-title-pd">SUBSCRIBE</div>
+            <div class="newsletter-sub-title">Enter your email address below to sign-up for the Two Headed Alien newsletter and receive updates on PROJECT DIAGNOSIS delivered straight to your inbox.</div>
+            <div class="mc-field-group">
+                <input type="email" value="" placeholder="email address" name="EMAIL" class="required email sign-up-box" id="mce-EMAIL">
+            </div>
+            <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d757ed6a7de1144f720d19402_c7236ccafa" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+    </div>
+
+    <!--End Signup Form-->
 </div>
         
 <!--Modal-->
@@ -78,10 +158,12 @@
 
 <footer>
 <ul>
+    <li><a href="about-us.html">About Us</a></li>
+
 <li><a href="contact.html">Contact</a></li>
 </ul>
 <div class="copywright align-center-d">
-    Copyright Two Headed Alien ©2022
+    Copyright Two Headed Alien ©2023
 </div>
 </footer>
 

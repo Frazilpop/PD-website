@@ -1,0 +1,149 @@
+
+.infinity-container {
+}
+.sign-up-box {
+    color: black !important;
+
+}
+#mc_embed_signup .button {
+    background-color: #715f95 !important;
+    color: white !important;
+    width: 480px !important;
+    max-width: 100% !important;
+    border: none !important;
+}
+.button:hover {
+    background-color: #503e73 !important;
+}
+.newsletter-title-pd {
+    font-family: "Oswald";
+    font-size: 200%;
+    margin-bottom: 30px;
+}
+.newsletter-sub-title {
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 80%;
+
+}
+.blog-title {
+    text-transform:uppercase;
+    color: white !important;
+    font-family: "Oswald";
+    margin-bottom: 0px !important;
+    font-size: 200%;
+}
+.copywright {
+    background: #231F20;
+    font-size: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.sign-up-form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 15px;
+    background: white !important;
+    max-width: 660px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+.container-c {
+    background: #231F20;
+}
+body {
+    background: #231F20 !important;
+    color: white !important;
+
+}
+@media (max-width: 767px) {
+    .blog-title {
+        padding-top: 15px !important;
+
+    }
+    .main-title {
+        font-size: 160% !important;
+        padding-top: 20px !important;
+        padding-bottom: 25px !important;
+        
+    }
+}
+.feature-logo {
+    padding-top: 50px;
+    max-width: 550px;
+}
+.url-blue {
+    color: #81b7e9 !important;
+  }
+
+  .url-blue:hover {
+    color: #5297d7 !important;
+  }
+
+@media(max-width:767px) {
+    .feature-logo {
+    padding-top: 0px;
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+}
+.article-title {
+    color: white;
+    font-family: "Oswald";
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+.main-title {
+    font-size: 260%;
+    border-bottom: 2px white solid;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    display: block;
+
+}
+.text-block {
+    font-family: "Nunito";
+    font-weight: 800;
+    font-size: 120%;
+    color: white;
+    line-height: 1.75rem;
+}
+.intro-bubble {
+    max-width: 450px;
+}
+.intro-bubble-w {
+    max-width: 480px;
+}
+.col-red {
+    color: #9d456f;
+}
+.col-blue {
+    color:#649ed6;
+}
+
+body {
+    font-family: "Nunito","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-weight: 400;
+    font-size: 130% !important;
+}
+.sub-title {
+    color: white;
+    font-weight: 300;
+    padding-top: 40px;
+}
+.dev-title {
+    color: white;
+    font-family: "Oswald";
+    font-size: 220%;
+    padding-bottom: 10px;
+}
+
+.image-outline {
+    border: 3px solid white;
+}
