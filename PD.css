@@ -68,9 +68,6 @@ body {
         padding-top: 15px !important;
 
     }
-    .slider-container .slick-slider > div:not(:last-child) {
-        margin-bottom: 30px;
-    }
     .main-title {
         font-size: 140% !important;
         padding-top: 20px !important;
